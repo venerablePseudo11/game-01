@@ -1,4 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("start game");
+    start.startGame();
 }, false);
 //DOM modelo de objeto del documento
+var start = {
+    startGame: function(){
+        console.log("start game");
+        mainLoop.iterate();
+    }
+}

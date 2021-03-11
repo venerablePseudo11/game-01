@@ -1,4 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("Inicio js");
+    console.log("start game");
 }, false);
 //DOM modelo de objeto del documento

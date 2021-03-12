@@ -6,7 +6,7 @@ var start = {
     startGame: function(){
         console.log("start game");
         dimension.start();
-        var r = new Rectangle(10, 10, 200, 200);
+        var r = new Rectangle(0, 0, 100, 100);
         mainLoop.iterate();
     }
 }

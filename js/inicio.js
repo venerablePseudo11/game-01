@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 var start = {
     startGame: function(){
         console.log("start game");
+        keyboard.start();
         dimension.start();
         start.reloadTiles();
         mainLoop.iterate();

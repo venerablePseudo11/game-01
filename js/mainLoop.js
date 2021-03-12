@@ -7,9 +7,8 @@ var mainLoop = {
     fps: 0,
     iterate: function (tempRegister) {
         mainLoop.idEjecucion = window.requestAnimationFrame(mainLoop.iterate);
-        
         mainLoop.upgrade(tempRegister);
-        mainLoop.paint();
+        mainLoop.paint(); 
 
         if (tempRegister - mainLoop.lastRecord > 999) {
             mainLoop.lastRecord = tempRegister;
@@ -22,6 +21,7 @@ var mainLoop = {
 
     },
     upgrade: function (tempRegister){
+        keyboard.reload();
         mainLoop.aps++;
     },
     paint: function (tempRegister){

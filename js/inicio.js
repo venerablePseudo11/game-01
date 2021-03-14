@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 var start = {
     startGame: function(){
         console.log("start game");
+        ajax.uploadFile("maps/4lvl.json");
         keyboard.start();
         dimension.start();
         start.reloadTiles();

@@ -10,11 +10,8 @@
 <body>
     <div id="game">
     </div>
-    <script src="js/ajax.js"></script>
-    <script src="js/keyboard.js"></script>
-    <script src="js/rectangle.js"></script>
-    <script src="js/mainLoop.js"></script>
-    <script src="js/dimensions.js"></script>
-    <script src="js/inicio.js"></script>
+    <?php
+        include_once 'app/fileLoaderJS.inc.php';
+    ?>
 </body>
 </html>

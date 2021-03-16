@@ -4,6 +4,7 @@ $fecha = new DateTime();
 
 $fontsJavaScript = array(
     "js/Point.js",
+    "js/Sprite.js",
     "js/ajax.js",
     "js/keyboard.js",
     "js/Rectangle.js",

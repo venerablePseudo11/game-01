@@ -3,9 +3,10 @@
 $fecha = new DateTime();
 
 $fontsJavaScript = array(
+    "js/Point.js",
     "js/ajax.js",
     "js/keyboard.js",
-    "js/rectangle.js",
+    "js/Rectangle.js",
     "js/mainLoop.js",
     "js/dimensions.js",
     "js/inicio.js"

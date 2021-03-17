@@ -1,8 +1,10 @@
-function Punto(x, y) {
-    this.x = x;
-    this.y = y;
+class Punto {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+    coincide(punto) {
+        return (this.x == punto.x && this.y == punto.y) ? true : false;
+    }
 }
 
-Punto.prototype.coincide = function (punto) {
-    return (this.x == punto.x && this.y == punto.y) ? true : false;
-}

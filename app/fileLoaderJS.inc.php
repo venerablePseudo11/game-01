@@ -3,6 +3,7 @@
 $fecha = new DateTime();
 
 $fontsJavaScript = array(
+    "js/listofStates.js",
     "js/Rectangle.js",
     "js/Point.js",
     "js/Sprite.js",
